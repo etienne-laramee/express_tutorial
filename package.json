@@ -1,23 +1,30 @@
 {
-  "name": "express_tutorial",
-  "version": "1.0.0",
-  "description": "Sample express app",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "express_tutorial"
-  },
-  "keywords": [
-    "express",
-    "nodejs"
-  ],
-  "author": "Etienne Laramee",
-  "license": "ISC"
+    "name": "express_tutorial",
+    "version": "1.0.0",
+    "description": "Sample express app",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "express-handlebars": "^3.1.0",
+        "moment": "^2.24.0",
+        "nodemon": "^1.19.1",
+        "uuid": "^3.3.2"
+    },
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "express_tutorial"
+    },
+    "keywords": [
+        "express",
+        "nodejs"
+    ],
+    "author": "Etienne Laramee",
+    "license": "ISC"
 }
